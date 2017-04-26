@@ -1051,7 +1051,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_primax_chromatix.xml:system/etc/camera/imx318_primax_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_semco_chromatix.xml:system/etc/camera/imx318_semco_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/init.panel_info.sh:system/etc/init.panel_info.sh \
-    vendor/xiaomi/scorpio/proprietary/etc/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
@@ -1191,4 +1190,6 @@ PRODUCT_PACKAGES += \
     qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel \
     qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel \
     qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel \
-    qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel
+    qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel \
+    qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml \
+    qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml
