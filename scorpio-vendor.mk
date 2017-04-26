@@ -254,7 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
     vendor/xiaomi/scorpio/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
     vendor/xiaomi/scorpio/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/wlan.ko \
+    vendor/xiaomi/scorpio/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/xiaomi/scorpio/proprietary/lib/modules/rdbg.ko:system/lib/modules/rdbg.ko \
     vendor/xiaomi/scorpio/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
     vendor/xiaomi/scorpio/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
@@ -1044,8 +1044,131 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
     vendor/xiaomi/scorpio/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/xiaomi/scorpio/proprietary/lib64/libsensorservice.so:system/lib64.libsensorservice.so \
-    vendor/xiaomi/scorpio/proprietary/lib64/libmiui_sensor.so:system/lib64/libmiui_sensor.so
-
+    vendor/xiaomi/scorpio/proprietary/lib64/libmiui_sensor.so:system/lib64/libmiui_sensor.so \
+    vendor/xiaomi/scorpio/proprietary/etc/calib.cfg:system/etc/calib.cfg \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_chromatix.xml:system/etc/camera/imx268_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_sunny_chromatix.xml:system/etc/camera/imx268_sunny_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_primax_chromatix.xml:system/etc/camera/imx318_primax_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_semco_chromatix.xml:system/etc/camera/imx318_semco_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/init.panel_info.sh:system/etc/init.panel_info.sh \
+    vendor/xiaomi/scorpio/proprietary/etc/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_common.so:system/vendor/lib/libchromatix_imx268_common.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx268_cpp_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx268_cpp_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx268_cpp_hfr_90.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_cpp_liveshot.so:system/vendor/lib/libchromatix_imx268_cpp_liveshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_cpp_preview.so:system/vendor/lib/libchromatix_imx268_cpp_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_cpp_snapshot.so:system/vendor/lib/libchromatix_imx268_cpp_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_cpp_video.so:system/vendor/lib/libchromatix_imx268_cpp_video.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_default_video.so:system/vendor/lib/libchromatix_imx268_default_video.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_hfr_120.so:system/vendor/lib/libchromatix_imx268_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_hfr_120_bu64245.so:system/vendor/lib/libchromatix_imx268_hfr_120_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_hfr_60.so:system/vendor/lib/libchromatix_imx268_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_hfr_60_bu64245.so:system/vendor/lib/libchromatix_imx268_hfr_60_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_hfr_90.so:system/vendor/lib/libchromatix_imx268_hfr_90.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_hfr_90_bu64245.so:system/vendor/lib/libchromatix_imx268_hfr_90_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_postproc.so:system/vendor/lib/libchromatix_imx268_postproc.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_preview.so:system/vendor/lib/libchromatix_imx268_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_snapshot.so:system/vendor/lib/libchromatix_imx268_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_common.so:system/vendor/lib/libchromatix_imx268_sunny_common.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx268_sunny_cpp_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx268_sunny_cpp_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx268_sunny_cpp_hfr_90.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_cpp_liveshot.so:system/vendor/lib/libchromatix_imx268_sunny_cpp_liveshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_cpp_preview.so:system/vendor/lib/libchromatix_imx268_sunny_cpp_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_cpp_snapshot.so:system/vendor/lib/libchromatix_imx268_sunny_cpp_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_cpp_video.so:system/vendor/lib/libchromatix_imx268_sunny_cpp_video.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_default_video.so:system/vendor/lib/libchromatix_imx268_sunny_default_video.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_hfr_120.so:system/vendor/lib/libchromatix_imx268_sunny_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_hfr_120_bu64245.so:system/vendor/lib/libchromatix_imx268_sunny_hfr_120_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_hfr_60.so:system/vendor/lib/libchromatix_imx268_sunny_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_hfr_60_bu64245.so:system/vendor/lib/libchromatix_imx268_sunny_hfr_60_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_hfr_90.so:system/vendor/lib/libchromatix_imx268_sunny_hfr_90.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_hfr_90_bu64245.so:system/vendor/lib/libchromatix_imx268_sunny_hfr_90_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_postproc.so:system/vendor/lib/libchromatix_imx268_sunny_postproc.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_preview.so:system/vendor/lib/libchromatix_imx268_sunny_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_snapshot.so:system/vendor/lib/libchromatix_imx268_sunny_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_zsl_preview_bu64245.so:system/vendor/lib/libchromatix_imx268_sunny_zsl_preview_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_sunny_zsl_video_bu64245.so:system/vendor/lib/libchromatix_imx268_sunny_zsl_video_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_zsl_preview_bu64245.so:system/vendor/lib/libchromatix_imx268_zsl_preview_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_zsl_video_bu64245.so:system/vendor/lib/libchromatix_imx268_zsl_video_bu64245.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_common.so:system/vendor/lib/libchromatix_imx318_common.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx318_cpp_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx318_cpp_hfr_240.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx318_cpp_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_cpp_liveshot.so:system/vendor/lib/libchromatix_imx318_cpp_liveshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_cpp_preview.so:system/vendor/lib/libchromatix_imx318_cpp_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_cpp_snapshot.so:system/vendor/lib/libchromatix_imx318_cpp_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_cpp_video.so:system/vendor/lib/libchromatix_imx318_cpp_video.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_cpp_video_4k.so:system/vendor/lib/libchromatix_imx318_cpp_video_4k.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_hfr_120.so:system/vendor/lib/libchromatix_imx318_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_hfr_240.so:system/vendor/lib/libchromatix_imx318_hfr_240.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_hfr_240_lc898214xc.so:system/vendor/lib/libchromatix_imx318_hfr_240_lc898214xc.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_hfr_60.so:system/vendor/lib/libchromatix_imx318_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_postproc.so:system/vendor/lib/libchromatix_imx318_postproc.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_preview.so:system/vendor/lib/libchromatix_imx318_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_1080p_preview_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_1080p_preview_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_1080p_video_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_1080p_video_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_4k_preview_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_4k_preview_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_4k_video_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_4k_video_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_common.so:system/vendor/lib/libchromatix_imx318_primax_common.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx318_primax_cpp_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx318_primax_cpp_hfr_240.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx318_primax_cpp_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_cpp_liveshot.so:system/vendor/lib/libchromatix_imx318_primax_cpp_liveshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_cpp_preview.so:system/vendor/lib/libchromatix_imx318_primax_cpp_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_cpp_snapshot.so:system/vendor/lib/libchromatix_imx318_primax_cpp_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_cpp_video.so:system/vendor/lib/libchromatix_imx318_primax_cpp_video.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_cpp_video_4k.so:system/vendor/lib/libchromatix_imx318_primax_cpp_video_4k.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_default_preview_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_default_preview_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_default_video_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_default_video_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_fullsize_preview_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_fullsize_preview_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_fullsize_video_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_fullsize_video_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_hfr_120.so:system/vendor/lib/libchromatix_imx318_primax_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_hfr_120_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_hfr_120_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_hfr_240.so:system/vendor/lib/libchromatix_imx318_primax_hfr_240.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_hfr_240_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_hfr_240_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_hfr_60.so:system/vendor/lib/libchromatix_imx318_primax_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_hfr_60_ak7371.so:system/vendor/lib/libchromatix_imx318_primax_hfr_60_ak7371.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_postproc.so:system/vendor/lib/libchromatix_imx318_primax_postproc.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_preview.so:system/vendor/lib/libchromatix_imx318_primax_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_snapshot.so:system/vendor/lib/libchromatix_imx318_primax_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_primax_video_4k.so:system/vendor/lib/libchromatix_imx318_primax_video_4k.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_1080p_preview_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_1080p_preview_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_1080p_video_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_1080p_video_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_4k_preview_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_4k_preview_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_4k_video_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_4k_video_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_common.so:system/vendor/lib/libchromatix_imx318_semco_common.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx318_semco_cpp_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx318_semco_cpp_hfr_240.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx318_semco_cpp_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_liveshot.so:system/vendor/lib/libchromatix_imx318_semco_cpp_liveshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_preview.so:system/vendor/lib/libchromatix_imx318_semco_cpp_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_snapshot.so:system/vendor/lib/libchromatix_imx318_semco_cpp_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_video.so:system/vendor/lib/libchromatix_imx318_semco_cpp_video.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_video_4k.so:system/vendor/lib/libchromatix_imx318_semco_cpp_video_4k.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_default_preview_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_default_preview_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_default_video_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_default_video_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_fullsize_preview_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_fullsize_preview_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_fullsize_video_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_fullsize_video_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_120.so:system/vendor/lib/libchromatix_imx318_semco_hfr_120.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_120_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_hfr_120_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_240.so:system/vendor/lib/libchromatix_imx318_semco_hfr_240.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_240_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_hfr_240_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_60.so:system/vendor/lib/libchromatix_imx318_semco_hfr_60.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_60_lc898217.so:system/vendor/lib/libchromatix_imx318_semco_hfr_60_lc898217.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_postproc.so:system/vendor/lib/libchromatix_imx318_semco_postproc.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_preview.so:system/vendor/lib/libchromatix_imx318_semco_preview.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_snapshot.so:system/vendor/lib/libchromatix_imx318_semco_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_semco_video_4k.so:system/vendor/lib/libchromatix_imx318_semco_video_4k.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_snapshot.so:system/vendor/lib/libchromatix_imx318_snapshot.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_video_4k.so:system/vendor/lib/libchromatix_imx318_video_4k.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so
 
 PRODUCT_PACKAGES += \
     libsdm-disp-apis \
