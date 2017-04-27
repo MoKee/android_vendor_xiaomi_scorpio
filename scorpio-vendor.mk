@@ -1052,7 +1052,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_semco_chromatix.xml:system/etc/camera/imx318_semco_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/init.panel_info.sh:system/etc/init.panel_info.sh \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/xiaomi/scorpio/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx268_common.so:system/vendor/lib/libchromatix_imx268_common.so \
@@ -1167,7 +1166,75 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_snapshot.so:system/vendor/lib/libchromatix_imx318_snapshot.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libchromatix_imx318_video_4k.so:system/vendor/lib/libchromatix_imx318_video_4k.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so
+    vendor/xiaomi/scorpio/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib64/mmi_audio.so:system/vendor/lib64/mmi_audio.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib64/mmi_sensor.so:system/vendor/lib64/mmi_sensor.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
+    vendor/xiaomi/scorpio/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
+    vendor/xiaomi/scorpio/proprietary/etc/qvop/cmudict.bin:system/etc/qvop/cmudict.bin \
+    vendor/xiaomi/scorpio/proprietary/etc/qvop/noisesample.bin:system/etc/qvop/noisesample.bin \
+    vendor/xiaomi/scorpio/proprietary/etc/qvop/poc_64_hmm.gmm:system/etc/qvop/poc_64_hmm.gmm \
+    vendor/xiaomi/scorpio/proprietary/etc/permissions/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/permissions/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/permissions/android.hardware.sensor.hifi_sensors.xml:system/etc/permissions/android.hardware.sensor.hifi_sensors.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/permissions/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/permissions/android.hardware.vr.high_performance.xml:system/etc/permissions/android.hardware.vr.high_performance.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/permissions/android.hardware.vulkan.level.xml:system/etc/permissions/android.hardware.vulkan.level.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/permissions/android.hardware.vulkan.version.xml:system/etc/permissions/android.hardware.vulkan.version.xml \
+    vendor/xiaomi/scorpio/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/xiaomi/scorpio/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/xiaomi/scorpio/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
+    vendor/xiaomi/scorpio/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib/libEGL.so:system/lib/libEGL.so \
+    vendor/xiaomi/scorpio/proprietary/lib/libETC1.so:system/lib/libETC1.so \
+    vendor/xiaomi/scorpio/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
+    vendor/xiaomi/scorpio/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
+    vendor/xiaomi/scorpio/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    vendor/xiaomi/scorpio/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/hw/audio.primary.default.so:system/lib64/hw/audio.primary.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/hw/audio.r_submix.default.so:system/lib64/hw/audio.r_submix.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/hw/audio.usb.default.so:system/lib64/hw/audio.usb.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/hw/audio_policy.default.so:system/lib64/hw/audio_policy.default.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/libultrasound.so:system/lib64/libultrasound.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/libvulkan.so:system/lib64/libvulkan.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
+    vendor/xiaomi/scorpio/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/scorpio/proprietary/usr/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc \
+    vendor/xiaomi/scorpio/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
+    vendor/xiaomi/scorpio/proprietary/usr/idc/usf_tsc_ext.idc:system/usr/idc/usf_tsc_ext.idc \
+    vendor/xiaomi/scorpio/proprietary/usr/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so
 
 PRODUCT_PACKAGES += \
     libsdm-disp-apis \
