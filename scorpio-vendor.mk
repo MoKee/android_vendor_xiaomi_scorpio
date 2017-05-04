@@ -245,21 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/scorpio/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/scorpio/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/backlight.ko:system/lib/modules/backlight.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/br_netfilter.ko:system/lib/modules/br_netfilter.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/generic_bl.ko:system/lib/modules/generic_bl.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/rdbg.ko:system/lib/modules/rdbg.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
-    vendor/xiaomi/scorpio/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
     vendor/xiaomi/scorpio/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/scorpio/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/xiaomi/scorpio/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
