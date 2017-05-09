@@ -931,7 +931,9 @@ vendor/xiaomi/scorpio/proprietary/vendor/etc/audio_effects.conf:system/vendor/et
     vendor/xiaomi/scorpio/proprietary/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml:system/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml \
     vendor/xiaomi/scorpio/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/scorpio/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so 
+vendor/xiaomi/scorpio/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+vendor/xiaomi/scorpio/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+vendor/xiaomi/scorpio/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \ vendor/xiaomi/scorpio/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so 
 
 
 PRODUCT_PACKAGES += \
