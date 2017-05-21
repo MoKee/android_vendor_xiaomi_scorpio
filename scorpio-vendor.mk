@@ -116,37 +116,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:system/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_chromatix.xml:system/etc/camera/imx268_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_sunny_chromatix.xml:system/etc/camera/imx268_sunny_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx230_qc2002_chromatix.xml:system/etc/camera/imx230_qc2002_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx258_mono_chromatix.xml:system/etc/camera/imx258_mono_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx258_mono_ofilm_chromatix.xml:system/etc/camera/imx258_mono_ofilm_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx258_ofilm_chromatix.xml:system/etc/camera/imx258_ofilm_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_chromatix.xml:system/etc/camera/imx318_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_semco_chromatix.xml:system/etc/camera/imx318_semco_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_primax_chromatix.xml:system/etc/camera/imx318_primax_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx378_liteon_chromatix.xml:system/etc/camera/imx378_liteon_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx378_semco_chromatix.xml:system/etc/camera/imx378_semco_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov13850_chromatix.xml:system/etc/camera/ov13850_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:system/etc/camera/ov13850_q13v06k_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov16880_chromatix.xml:system/etc/camera/ov16880_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov4688_a7_chromatix.xml:system/etc/camera/ov4688_a7_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov4688_primax_a7_chromatix.xml:system/etc/camera/ov4688_primax_a7_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov5670_chromatix.xml:system/etc/camera/ov5670_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov5670_f5670bq_chromatix.xml:system/etc/camera/ov5670_f5670bq_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov5675_primax_chromatix.xml:system/etc/camera/ov5675_primax_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/s5k2m8_liteon_chromatix.xml:system/etc/camera/s5k2m8_liteon_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:system/etc/camera/s5k3l8_mono_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/s5k3m2xm_chromatix.xml:system/etc/camera/s5k3m2xm_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/s5k3p3_qtech_chromatix.xml:system/etc/camera/s5k3p3_qtech_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/s5k3p3sm_chromatix.xml:system/etc/camera/s5k3p3sm_chromatix.xml \
     vendor/xiaomi/scorpio/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/scorpio/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/xiaomi/scorpio/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
@@ -639,7 +612,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_primax_eeprom.so:system/vendor/lib/libmmcamera_imx318_primax_eeprom.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco.so:system/vendor/lib/libmmcamera_imx318_semco.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco_eeprom.so:system/vendor/lib/libmmcamera_imx318_semco_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_isp_abf47.so:system/vendor/lib/libmmcamera_isp_abf47.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:system/vendor/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
@@ -686,27 +658,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_a4_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_a4_eeprom.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:system/vendor/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov16880_ofilm_eeprom.so:system/vendor/lib/libmmcamera_ov16880_ofilm_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov16880.so:system/vendor/lib/libmmcamera_ov16880.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:system/vendor/lib/libmmcamera_ov2685_scv3b4035.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov2685.so:system/vendor/lib/libmmcamera_ov2685.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov4688_a7.so:system/vendor/lib/libmmcamera_ov4688_a7.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov4688_b7_eeprom.so:system/vendor/lib/libmmcamera_ov4688_b7_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov4688_b7.so:system/vendor/lib/libmmcamera_ov4688_b7.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov4688_primax_a7.so:system/vendor/lib/libmmcamera_ov4688_primax_a7.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov4688_primax_b7.so:system/vendor/lib/libmmcamera_ov4688_primax_b7.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov4688_primax.so:system/vendor/lib/libmmcamera_ov4688_primax.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov5675_primax.so:system/vendor/lib/libmmcamera_ov5675_primax.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
@@ -715,24 +666,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so:system/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so:system/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:system/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_s5k2m8_liteon.so:system/vendor/lib/libmmcamera_s5k2m8_liteon.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:system/vendor/lib/libmmcamera_s5k3l8_mono.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_s5k3p3_qtech_eeprom.so:system/vendor/lib/libmmcamera_s5k3p3_qtech_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_s5k3p3_qtech.so:system/vendor/lib/libmmcamera_s5k3p3_qtech.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_s5k3p3sm.so:system/vendor/lib/libmmcamera_s5k3p3sm.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:system/vendor/lib/libmmcamera_sony_imx378_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_sunny_a16s05e_eeprom.so:system/vendor/lib/libmmcamera_sunny_a16s05e_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
