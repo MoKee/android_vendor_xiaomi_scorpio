@@ -160,22 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_primax.so:system/vendor/lib/libmmcamera_imx318_primax.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_primax_eeprom.so:system/vendor/lib/libmmcamera_imx318_primax_eeprom.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco.so:system/vendor/lib/libmmcamera_imx318_semco.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco_eeprom.so:system/vendor/lib/libmmcamera_imx318_semco_eeprom.so \
-    vendor/xiaomi/scorpio/proprietary/lib/libmiui_sensor.so:system/lib/libmiui_sensor.so \
-    vendor/xiaomi/scorpio/proprietary/lib64/libmiui_sensor.so:system/lib64/libmiui_sensor.so \
-    vendor/xiaomi/scorpio/proprietary/etc/init.captouch.sh:system/etc/init.captouch.sh \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/qfp.wakeup.so:system/vendor/lib/qfp.wakeup.so \
-    vendor/xiaomi/scorpio/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
-    vendor/xiaomi/scorpio/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
-    vendor/xiaomi/scorpio/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libqfp-service.so:system/vendor/lib/libqfp-service.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib64/libqfp-service.so:system/vendor/lib64/libqfp-service.so \
-    vendor/xiaomi/scorpio/proprietary/lib64/libsensorservice.so:system/lib64.libsensorservice.so \
-    vendor/xiaomi/scorpio/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/xiaomi/scorpio/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
-    vendor/xiaomi/scorpio/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
-    vendor/xiaomi/scorpio/proprietary/lib64/libmiui_sensor.so:system/lib64/libmiui_sensor.so
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco_eeprom.so:system/vendor/lib/libmmcamera_imx318_semco_eeprom.so
 
 PRODUCT_PACKAGES += \
     qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel
