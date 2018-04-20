@@ -78,13 +78,13 @@ special_mode_mask values:
 
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
-    <ChromatixName special_mode_mask="8">
+    <ChromatixName special_mode_mask="0">
       <ISPCommon>imx318_primax_common</ISPCommon>
       <PostProc>imx318_primax_postproc</PostProc>
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="8">
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="0">
       <ISPPreview>imx318_primax_snapshot</ISPPreview>
       <ISPSnapshot>imx318_primax_snapshot</ISPSnapshot>
       <ISPVideo>imx318_primax_snapshot</ISPVideo>
@@ -95,7 +95,7 @@ special_mode_mask values:
       <A3Preview>imx318_primax_fullsize_preview_ak7371</A3Preview>
       <A3Video>imx318_primax_fullsize_video_ak7371</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="8">
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
       <ISPPreview>imx318_primax_preview</ISPPreview>
       <ISPSnapshot>imx318_primax_preview</ISPSnapshot>
       <ISPVideo>imx318_primax_preview</ISPVideo>
@@ -106,7 +106,7 @@ special_mode_mask values:
       <A3Preview>imx318_primax_default_preview_ak7371</A3Preview>
       <A3Video>imx318_primax_default_video_ak7371</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="2" special_mode_mask="8">
+    <ChromatixName sensor_resolution_index="2" special_mode_mask="0">
       <ISPPreview>imx318_primax_video_4k</ISPPreview>
       <ISPSnapshot>imx318_primax_video_4k</ISPSnapshot>
       <ISPVideo>imx318_primax_video_4k</ISPVideo>
@@ -117,7 +117,7 @@ special_mode_mask values:
       <A3Preview>imx318_primax_4k_preview_ak7371</A3Preview>
       <A3Video>imx318_primax_4k_video_ak7371</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="3" special_mode_mask="8">
+    <ChromatixName sensor_resolution_index="3" special_mode_mask="0">
       <ISPPreview>imx318_primax_hfr_60</ISPPreview>
       <ISPSnapshot>imx318_primax_hfr_60</ISPSnapshot>
       <ISPVideo>imx318_primax_hfr_60</ISPVideo>
@@ -128,7 +128,7 @@ special_mode_mask values:
       <A3Preview>imx318_primax_hfr_60_ak7371</A3Preview>
       <A3Video>imx318_primax_hfr_60_ak7371</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="4" special_mode_mask="8">
+    <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
       <ISPPreview>imx318_primax_hfr_120</ISPPreview>
       <ISPSnapshot>imx318_primax_hfr_120</ISPSnapshot>
       <ISPVideo>imx318_primax_hfr_120</ISPVideo>
@@ -139,7 +139,7 @@ special_mode_mask values:
       <A3Preview>imx318_primax_hfr_120_ak7371</A3Preview>
       <A3Video>imx318_primax_hfr_120_ak7371</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="5" special_mode_mask="8">
+    <ChromatixName sensor_resolution_index="5" special_mode_mask="0">
       <ISPPreview>imx318_primax_hfr_240</ISPPreview>
       <ISPSnapshot>imx318_primax_hfr_240</ISPSnapshot>
       <ISPVideo>imx318_primax_hfr_240</ISPVideo>
